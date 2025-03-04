@@ -1,0 +1,10 @@
+const ch = (n) => {
+    if (n == 1) {
+        let big = document.querySelector('.img1');
+        big.src = "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/27909044/2024/2/27/e1535911-57a4-4fd3-9408-32522e48d9d51709036786615Watches1.jpg"
+    }
+    else if (n == 2) {
+        let big = document.querySelector('.img1');
+        big.src = "https://brandadda.in/cdn/shop/products/WhatsAppImage2022-11-19at8.50.13AM_1.jpg?v=1668832994"
+    }
+}

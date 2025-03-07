@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./calculetor.css">
 </head>
 <body>
     <table align="center" cellpadding="20px" cellspacing="20px" border="2px">
@@ -11,34 +12,34 @@
             <td colspan="4" id="show"></td>
         </tr>
         <tr>
+            <td onclick="del('del')" class="cal">del</td>
+            <td onclick="sq('sqar')" class="cal">sqar</td>
+            <td onclick="ac('ac')" class="cal">AC</td>
+            <td onclick="val('%')" class="cal">%</td>
+        </tr>
+        <tr>
             <td onclick="val('1')">1</td>
             <td onclick="val('2')">2</td>
             <td onclick="val('3')">3</td>
-            <td onclick="val('4')">4</td>
+            <td onclick="val('+')">+</td>
         </tr>
         <tr>
+            <td onclick="val('4')">4</td>
             <td onclick="val('5')">5</td>
             <td onclick="val('6')">6</td>
+            <td onclick="val('')">+</td>
+        </tr>
+        <tr>
             <td onclick="val('7')">7</td>
             <td onclick="val('8')">8</td>
+            <td onclick="val('9')">9</td>
+            <td onclick="val('*')">*</td>
         </tr>
         <tr>
-            <td onclick="val('9')">9</td>
             <td onclick="val('0')">0</td>
             <td onclick="val('00')">00</td>
-            <td onclick="val('1')">%</td>
-        </tr>
-        <tr>
-            <td onclick="val('+')">+</td>
-            <td onclick="val('-')">-</td>
-            <td onclick="val('*')">*</td>
             <td onclick="val('/')">/</td>
-        </tr>
-        <tr>
             <td onclick="cal('=')">=</td>
-            <td onclick="del('del')">del</td>
-            <td onclick="sq('sqar')">sqar</td>
-            <td onclick="ac('ac')">AC</td>
         </tr>
     </table>
     <script src="./caluleter.js"></script>

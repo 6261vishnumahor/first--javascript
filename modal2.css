@@ -1,0 +1,62 @@
+#dom {
+    background-color: rgb(57, 57, 177);
+    color: white;
+    width: 700px;
+  height: 300px;
+  margin-top: 30px;
+  border-radius: 20px;
+  display: none;
+}
+#cb{
+   margin: 20px 0px 20px 600px;
+   background-color: white;
+   color: rgb(64, 64, 166);
+   padding: 5px;
+   border-radius: 10px;
+}
+
+#d1 {
+    background-color: white;
+    color: blue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.art {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.art #b1 {
+    padding: 0px 30px 10px 20px;
+    border-right: 1px solid;
+    font-size: 20px;
+}
+#b2{
+    padding: 0px 30px 10px 20px;
+    font-size: 20px;
+}
+#vit{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.v1{
+    background-color: white;
+    color: blue;
+    width: 550px;
+border-radius: 10px;
+}
+.v1 article{
+    padding: 10px;
+}
+#v2{
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+    padding: 5px 50px 5px 2px ;
+    border-radius: 10px;
+}

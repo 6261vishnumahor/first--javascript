@@ -1,0 +1,63 @@
+form{
+    background-color: rgb(114, 142, 142);
+    padding: 30px;
+    border: rgb(220, 113, 113) solid 5px;
+    border-radius: 10px;
+    color: azure;
+    font-size: 22px;
+    width: 50%;
+  
+}
+form article{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding: 20px;
+}
+form input{
+   
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#de{
+background-color: rgb(187, 139, 72);
+width: 50%;
+height: 600px;
+border-radius: 10px;
+}
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+#f1{
+    font-size: 38px;
+   padding-right: 20px;
+}
+#f2{
+    font-size: 38px;
+    text-align: center;
+}
+#de1{
+    display: flex;
+    justify-content: center;
+}
+#m{
+    font-size: 25px;
+    padding-top: 20px;
+}
+#m1{
+    padding-top: 60px;
+    font-size: 25px;
+}
+#m2{
+    padding-top: 60px;
+    font-size: 25px;
+}

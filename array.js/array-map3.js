@@ -90,11 +90,11 @@ console.log(t)
 // let b = card
 let f = document.querySelector('#output')
 f.innerHTML = t.map(card => `
-    <div>
+    <div id="g1">
     <div><img width="100px" src="${card.image}"></div>
     <div id="h">${card.id}</div>
-     <div >${card.price}</div>
-    <div id="h1">${card.name}</div>
+     <div id="h1">${card.price}</div>
+    <div id="h2">${card.name}</div>
     <div id="h3">${card.brand}</div>
     </div>
     `).join(" ")

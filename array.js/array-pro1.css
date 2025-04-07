@@ -1,0 +1,24 @@
+ .hd1 {
+     background-color: rgb(89, 164, 164);
+     /* width: 700px; */
+     display: flex;
+     justify-content: space-evenly;
+ }
+ /* .hd1 {
+   background-color: rgb(89, 164, 164);
+   width: 700px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 1rem;
+   padding: 1rem;
+} */
+ /* #b{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   justify-content: space-evenly;
+ } */
+
+ #b1 {
+     width: 100px;
+ }
